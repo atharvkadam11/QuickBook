@@ -1,0 +1,23 @@
+.movie-booking-app {
+  display: grid;
+  grid-template-columns: 1fr 3fr; /* Adjust the ratio based on your design preference */
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.filters {
+  /* Styles for the filter section */
+}
+
+.movie-posters {
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /* Creates a 4-column layout for movie posters */
+  gap: 10px;
+}
+
+.movie-poster {
+  /* Styles for individual movie posters, including image size adjustments */
+}
